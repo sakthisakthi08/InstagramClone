@@ -194,3 +194,104 @@ body {
   margin-left: 84px;
   margin-top: 13px;
 }
+
+/* ================================================
+   📌 Global Responsive Width Utilities
+   ================================================ */
+.w-20 { width: 20%; }
+.w-30 { width: 30%; }
+
+@media (max-width: 1200px) {
+  .w-20 { width: 30%; }
+  .w-30 { width: 40%; }
+}
+
+@media (max-width: 992px) {
+  .w-20 { width: 40%; }
+  .w-30 { width: 60%; }
+}
+
+@media (max-width: 768px) {
+  .w-20 { width: 100%; }
+  .w-30 { width: 100%; }
+}
+
+/* ================================================
+   📌 Responsive Sidebar (hide text on small screen)
+   ================================================ */
+@media (max-width: 768px) {
+  .sidebar-item span {
+    display: none;
+  }
+
+  .sidebar-item {
+    justify-content: center;
+    padding: 12px;
+  }
+}
+
+/* ================================================
+   📌 Responsive Stories
+   ================================================ */
+@media (max-width: 768px) {
+  .story-image {
+    width: 65px;
+    height: 65px;
+  }
+  .story-username {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .story-image {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+/* ================================================
+   📌 Responsive Post Container
+   ================================================ */
+@media (max-width: 1024px) {
+  .post-container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-container {
+    width: 100%;
+    border-radius: 0;
+    margin-left: 0;
+  }
+
+  .post-dp {
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+}
+
+/* ================================================
+   📌 Responsive Menus
+   ================================================ */
+@media (max-width: 768px) {
+  .menu {
+    gap: 140px;
+  }
+  .menu2 {
+    gap: 130px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    gap: 90px;
+  }
+  .menu2 {
+    gap: 80px;
+    margin-left: 10px;
+  }
+}
