@@ -5,13 +5,13 @@ function Profile() {
   const [suggestions, setSuggestions] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/profile")
+    fetch("https://db-2-wcxp.onrender.com/profile")
       .then((res) => res.json())
       .then((data) => setProfile(data));
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:5000/suggestions")
+    fetch("https://db-2-wcxp.onrender.com/suggestions")
       .then((res) => res.json())
       .then((data) => setSuggestions(data));
   }, []);
