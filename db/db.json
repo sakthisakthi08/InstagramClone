@@ -1,0 +1,225 @@
+{
+ 
+  "stories": [
+  {
+    "id": 1,
+    "username": "k.sakthi",
+    "profile": "https://i.pravatar.cc/150?img=12",
+    "storyType": "image",
+    "storyUrl": "https://picsum.photos/800/1200?random=1"
+  },
+  {
+    "id": 2,
+    "username": "leo",
+    "profile": "https://i.pravatar.cc/150?img=52",
+    "storyType": "video",
+    "storyUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+  },
+  {
+    "id": 3,
+    "username": "Sham Jefri",
+    "profile": "https://i.pravatar.cc/150?img=53",
+    "storyType": "image",
+    "storyUrl": "https://picsum.photos/800/1200?random=2"
+  },
+  {
+    "id": 4,
+    "username": "Moses",
+    "profile": "https://i.pravatar.cc/150?img=54",
+    "storyType": "video",
+    "storyUrl": "https://www.w3schools.com/html/movie.mp4"
+  },
+  {
+    "id": 5,
+    "username": "Prathep",
+    "profile": "public/assets/pratheep.jpg",
+    "storyType": "image",
+    "storyUrl": "https://picsum.photos/800/1200?random=3"
+  }
+],
+
+  "posts": [
+    {
+      "id": 1,
+      "username": "tnpsc_official",
+      "profile": "/assets/sakthib.jpg",
+      "time": "1h",
+      "image": "/assets/sakthia.jpg",
+      "text":"k.sakthivel ct,.BE,." 
+    },
+     {
+      "id": 2,
+      "username": "k.sakthi",
+      "profile": "/assets/tnpsc.jpg",
+      "time": "3h",
+      "image": "/assets/tnpsc.jpg",
+      "likes": 120,
+      "text":"k.sakthi"
+    },
+    {
+      "id": 3,
+      "username": "SHAM JEFRI",
+      "profile": "/assets/sjdb.jpg",
+      "time": "3h",
+      "image": "/assets/sjdb.jpg",
+      "text": "Exploring the beauty of the Maldives 🌊🌴 #travel"
+    },
+    {
+      "id": 4,
+      "username": "Pratheep",
+      "profile": "public/assets/pratheep.jpg",
+      "time": "4h",
+      "image": "public/assets/pratheep.jpg",
+      "text": "The best burger in town 🍔🔥 #foodlove"
+    },
+    {
+      "id": 5,
+      "username": "coding_hero",
+      "profile": "https://i.pravatar.cc/150?img=5",
+      "time": "5h",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800",
+      "text": "Writing clean code is an art 🎨 #programming"
+    },
+    {
+      "id": 6,
+      "username": "nature_clicks",
+      "profile": "https://i.pravatar.cc/150?img=6",
+      "time": "6h",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
+      "text": "Nature heals 🌿 #photography"
+    },
+    {
+      "id": 7,
+      "username": "fitness_vibes",
+      "profile": "https://i.pravatar.cc/150?img=7",
+      "time": "8h",
+      "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0648?w=800",
+      "text": "No excuses. Just results 💪 #fitness"
+    },
+    {
+      "id": 8,
+      "username": "movie_buff",
+      "profile": "https://i.pravatar.cc/150?img=8",
+      "time": "9h",
+      "image": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?w=800",
+      "text": "Weekend movie marathon 🎬🍿"
+    },
+    {
+      "id": 9,
+      "username": "art_zone",
+      "profile": "https://i.pravatar.cc/150?img=9",
+      "time": "10h",
+      "image": "https://images.unsplash.com/photo-1526318472351-bc6c2c0f0b8d?w=800",
+      "text": "Colors speak louder than words 🎨🖌️"
+    },
+    {
+      "id": 10,
+      "username": "weather_today",
+      "profile": "https://i.pravatar.cc/150?img=10",
+      "time": "12h",
+      "image": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38?w=800",
+      "text": "Beautiful sunset in Pudukkottai 🌅 #weatherupdate"
+    },
+    {
+  "id": 11,
+  "username": "music_vibes",
+  "profile": "https://i.pravatar.cc/150?img=11",
+  "time": "1h",
+  "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+  "text": "Chill beats for a productive day 🎶"
+}
+   
+  ],
+  "profile":{
+    "username": "sakthi_creative",
+    "fullName": "K. Sakthivel",
+    "bio": "Frontend Developer | Love coding 💻",
+    "followers": 1200,
+    "following": 340,
+    "posts": 25,
+    "profilePic": "/assets/sakthib.jpg"
+  },
+  "suggestions":[
+    {
+      "id": 1,
+      "username": "tech_world",
+      "fullName": "Tech World",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "followedBy": "it_company_jobs",
+      "isVerified": true
+    },
+    {
+      "id": 2,
+      "username": "nature_clicks",
+      "fullName": "Nature Clicks",
+      "profilePic": "https://i.pravatar.cc/150?img=8",
+      "followedBy": "weather_today",
+      "isVerified": false
+    },
+    {
+      "id": 3,
+      "username": "coding_hero",
+      "fullName": "Coding Hero",
+      "profilePic": "https://i.pravatar.cc/150?img=14",
+      "followedBy": "sakthi_creative",
+      "isVerified": true
+    },
+    {
+      "id": 4,
+      "username": "foodie_life",
+      "fullName": "Foodie Life 🍔",
+      "profilePic": "https://i.pravatar.cc/150?img=22",
+      "followedBy": "travel_with_me",
+      "isVerified": false
+    },
+    {
+      "id": 5,
+      "username": "travel_with_me",
+      "fullName": "Travel With Me 🌍",
+      "profilePic": "https://i.pravatar.cc/150?img=18",
+      "followedBy": "nature_clicks",
+      "isVerified": true
+    },
+    {
+      "id": 6,
+      "username": "artistic_vibes",
+      "fullName": "Artistic Vibes 🎨",
+      "profilePic": "https://i.pravatar.cc/150?img=26",
+      "followedBy": "creative_world",
+      "isVerified": false
+    },
+    {
+      "id": 7,
+      "username": "fitness_freak",
+      "fullName": "Fitness Freak 💪",
+      "profilePic": "https://i.pravatar.cc/150?img=30",
+      "followedBy": "health_tips",
+      "isVerified": true
+    },
+    {
+      "id": 8,
+      "username": "music_zone",
+      "fullName": "Music Zone 🎵",
+      "profilePic": "https://i.pravatar.cc/150?img=33",
+      "followedBy": "dj_rocky",
+      "isVerified": false
+    },
+    {
+      "id": 9,
+      "username": "movie_buff",
+      "fullName": "Movie Buff 🎬",
+      "profilePic": "https://i.pravatar.cc/150?img=38",
+      "followedBy": "cinema_club",
+      "isVerified": true
+    },
+    {
+      "id": 10,
+      "username": "pet_lovers",
+      "fullName": "Pet Lovers 🐶",
+      "profilePic": "https://i.pravatar.cc/150?img=41",
+      "followedBy": "animal_world",
+      "isVerified": false
+    }
+  ]
+  
+}
