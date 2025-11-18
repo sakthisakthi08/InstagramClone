@@ -7,7 +7,7 @@ function Stories() {
   const progressRef = useRef(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/stories")
+    fetch("https://db-2-wcxp.onrender.com/stories")
       .then((res) => res.json())
       .then((data) => setStories(data))
       .catch((err) => console.log("Error:", err));

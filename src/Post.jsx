@@ -5,7 +5,7 @@ function Post() {
 
     // ✅ Data load from JSON Server
     useEffect(() => {
-        fetch("http://localhost:5000/posts") // port number json-server ஓடுது portக்கு match பண்ணிக்கோ
+        fetch("https://db-2-wcxp.onrender.com/posts") // port number json-server ஓடுது portக்கு match பண்ணிக்கோ
             .then((res) => res.json())
             .then((data) => setPosts(data))
             .catch((err) => console.log("Error:", err));
